@@ -3,7 +3,7 @@
     <thead>
         <tr>
             <th>First Name</th>
-            <th>Last Name</th>
+             <th>Last Name</th>    <!-- <th>   table column -->
             <th>Email Id</th>
             
         </tr>
@@ -11,9 +11,9 @@
     <tbody>
         <tr *ngFor="let employee of employees"> 
             <td> {{employee.firstName}}</td>
-            <td>{{employee.lastName}}</td>
+            <td>{{employee.lastName}}</td>            <!-- <td> table data  -->
             <td>{{employee.emailId}}</td>
-
+            
         </tr>
     </tbody>
 </table>
